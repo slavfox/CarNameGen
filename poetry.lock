@@ -1,0 +1,56 @@
+[[package]]
+category = "main"
+description = "Backports and enhancements for the contextlib module"
+name = "contextlib2"
+optional = false
+python-versions = "*"
+version = "0.5.5"
+
+[[package]]
+category = "main"
+description = "Pythonic argument parser, that will make you smile"
+name = "docopt"
+optional = false
+python-versions = "*"
+version = "0.6.2"
+
+[[package]]
+category = "main"
+description = "A simple, extensible Markov chain generator. Uses include generating random semi-plausible sentences based on an existing text."
+name = "markovify"
+optional = false
+python-versions = "*"
+version = "0.7.1"
+
+[package.dependencies]
+unidecode = "*"
+
+[[package]]
+category = "main"
+description = "Simple data validation library"
+name = "schema"
+optional = false
+python-versions = "*"
+version = "0.7.0"
+
+[package.dependencies]
+contextlib2 = "0.5.5"
+
+[[package]]
+category = "main"
+description = "ASCII transliterations of Unicode text"
+name = "unidecode"
+optional = false
+python-versions = "*"
+version = "1.0.23"
+
+[metadata]
+content-hash = "eafde559ca52c67e051c6d3fc112346a69ae599ed8f2a422f4a3da0bc55fd42d"
+python-versions = "^3.7"
+
+[metadata.hashes]
+contextlib2 = ["509f9419ee91cdd00ba34443217d5ca51f5a364a404e1dce9e8979cea969ca48", "f5260a6e679d2ff42ec91ec5252f4eeffdcf21053db9113bd0a8e4d953769c00"]
+docopt = ["49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"]
+markovify = ["f016ef58f60a8afb925aa16803538561c4b00375bf0b7f84952c29993805b9a7"]
+schema = ["44add3ef9016c85ac4b0291b45286a657d0df309b31528ca8d0a9c6d0aa68186", "5b0e0f47923164190513db2e91b9ab1941162b2dc400cc9b1803c2abab579e62"]
+unidecode = ["092cdf7ad9d1052c50313426a625b717dab52f7ac58f859e09ea020953b1ad8f", "8b85354be8fd0c0e10adbf0675f6dc2310e56fda43fa8fe049123b6c475e52fb"]
